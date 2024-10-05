@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Multipage Education Website Using HTML, CSS, Javascript</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <link
+     rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css">
+
+    <style>
+        body { background-image: url("./images/bg-texture.png")}
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html"><h4>Education</h4></a>
+            <ul class="nav__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="uil uil-ellipsis-v"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-times"></i></button>
+        </div>
+    </nav>
+
+    <header>
+        <div class="contaier header__container">
+            <div class="header__left">
+                <h1>Grow your skills to advance your career path</h1>
+                <p>
+                    To advance your career path, prioritize skill growth. Embrace learning new technologies, methodologies, and soft skills. Seek mentorship, engage in continuous self-improvement, and remain adaptable to industry changes. Building expertise enhances your value and opens doors to new opportunities.
+                </p>
+                <a href="courses.html" class="btn btn-primary">Get Started</a>
+            </div>
+            <div class="header__right">
+                <div class="header__right-image">
+                    <img src="./images/header.svg">
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="categories">
+        <div class="container categories__container">
+            <div class="categories__left">
+                <h1>Categories</h1>
+                <p>
+                    Education opportunities encompass a broad spectrum, including formal degrees, certifications, workshops, webinars, and online courses. They span various disciplines like technology, business, arts, and sciences. Furthermore, mentorship programs, internships, and experiential learning provide hands-on experiences crucial for skill development and career advancement in diverse fields.
+                </p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+
+            <div class="categories__right">
+                <article class="category">
+                    <span class="category__icon" style="border-radius:8px"><i class="uil uil-bitcoin"></i></span>
+                    <h5>Blockchain</h5>
+                    <p>
+                        Blockchain secures records transparently, decentralizing ledger tech without intermediaries across networks.
+                    </p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon" style="border-radius:8px"><i class="uil uil-chart-pie-alt"></i></span>
+                    <h5>Graphic Design</h5>
+                    <p>
+                        Graphic design communicates visually, conveying messages across diverse mediums effectively.
+                    </p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon" style="border-radius:8px"><i class="uil uil-rupee-sign"></i></span>
+                    <h5>Finance</h5>
+                    <p>
+                        Finance optimizes funds, investments, analyzes risks, and returns strategically.
+                    </p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon" style="border-radius:8px"><i class="uil uil-megaphone"></i></span>
+                    <h5>Marketing</h5>
+                    <p>
+                        Marketing promotes products, understands consumers, drives sales, and boosts brand awareness.
+                    </p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon" style="border-radius:8px"><i class="uil uil-music"></i></span>
+                    <h5>Music</h5>
+                    <p>
+                        Music uses sound, rhythm to express emotions, ideas, and stories creatively.
+                    </p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon" style="border-radius:8px"><i class="uil uil-arrow-growth"></i></span>
+                    <h5>Business</h5>
+                    <p>
+                        Business creates, delivers, exchanges goods/services to fulfill needs, generate profit.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="courses">
+        <h2>Our Popular Courses</h2>
+        <div class="container courses__container">
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images/course1.jpg">
+                </div>
+                <div class="course__info">
+                <h4>Responsive Social Media Website UI Design</h4>
+                <p>
+                  A responsive social media website UI design incorporates user-friendly features and engaging visuals for seamless interactions.
+                </p>
+                <a href="course.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images/course2.jpg">
+                </div>
+                <div class="course__info">
+                <h4>Responsive SmartHome Website Design</h4>
+                <p>
+                    A responsive SmartHome website design integrates intuitive controls, adaptable layouts, and interactive features for seamless user experiences.
+                </p>
+                <a href="course.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images/course3.jpg">
+                </div>
+                <div class="course__info">
+                <h4>Responsive Admin Dash-board UI Design</h4>
+                <p>
+                   Responsive admin dashboard UI design prioritizes data visualization and user-centric functionality for seamless management.
+                </p>
+                <a href="course.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="faqs">
+        <h2>Frequently Asked Questions</h2>
+        <div class="container faqs__container">
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>How do I know the right course for me?</h4>
+                     <p>
+                        Discover your passions, strengths, and long-term goals. Explore various subjects, consider practicality, and envision your future. Seek advice, reflect on personal interests, and choose a course aligned with your aspirations and potential.
+                     </p>
+                    
+        
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>What programs and courses are offered?</h4>
+                    <p>
+                        We offer comprehensive programs and courses in UI/UX design, web design, mobile app design, user research, prototyping, and design thinking, empowering students to excel in diverse design disciplines.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Are there any prerequisites for enrolling in your courses?</h4>
+                    <p>
+                        No prerequisites are required for enrollment. Our courses welcome beginners and professionals alike, providing comprehensive instruction and support to students at all levels of expertise in design.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>What software or tools will I need for these courses?</h4>
+                    <p>
+                        Our courses typically utilize industry-standard tools such as Adobe XD, Sketch, Figma, and InVision for UI/UX design. Access to a computer with internet connectivity is essential for completing coursework effectively.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>How long are the courses?</h4>
+                    <p>
+                        Course durations vary depending on the program and specific course. Typically, our courses range from 6 weeks to 6 months, providing comprehensive instruction and ample time for skill development and project completion.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Are there any hands-on projects or assignments in the courses?</h4>
+                    <p>
+                        Yes, our courses feature hands-on projects and assignments designed to enhance practical skills and reinforce theoretical concepts. Students engage in real-world projects to build a robust portfolio and gain practical experience.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Can I get a certificate upon completing the courses?</h4>
+                    <p>
+                        Yes, upon successfully completing our courses, you will receive a certificate of completion. This certificate verifies your proficiency in UI design and enhances your credibility in the field.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Do you offer mentorship or career counseling for the students?</h4>
+                    <p>
+                        Yes, we offer mentorship and career counseling to our students. Our experienced mentors provide guidance, feedback, and support to help students navigate their career paths and achieve their professional goals effectively.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>How can I access support if I have technical difficulties during the courses?</h4>
+                    <p>
+                        You can access technical support through our online platform, where dedicated support staff are available to assist you with any technical difficulties you encounter during the courses.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Can I access course materials and lectures after completing the program?</h4>
+                    <p>
+                        Yes, you will have continued access to course materials and lectures after completing the program. This ensures that you can review content and reference materials as needed for ongoing learning and reference.
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="container testimonials__container mySwiper">
+        <h2>Student's Testimonials</h2>
+        <div class="swiper-wrapper">
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar1.jpg">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Sophia</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi blanditiis, hic molestias ut amet illum repellendus voluptas nesciunt vitae eligendi quam ipsum sunt, laudantium obcaecati, assumenda animi rerum fugit dolore.
+                    </p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar2.jpg">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Sam</h5>
+                    <small>Web Developer</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi blanditiis, hic molestias ut amet illum repellendus voluptas nesciunt vitae eligendi quam ipsum sunt, laudantium obcaecati, assumenda animi rerum fugit dolore.
+                    </p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar3.jpg">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Nate</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi blanditiis, hic molestias ut amet illum repellendus voluptas nesciunt vitae eligendi quam ipsum sunt, laudantium obcaecati, assumenda animi rerum fugit dolore.
+                    </p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar4.jpg">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Nora</h5>
+                    <small>Web Designer</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi blanditiis, hic molestias ut amet illum repellendus voluptas nesciunt vitae eligendi quam ipsum sunt, laudantium obcaecati, assumenda animi rerum fugit dolore.
+                    </p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar5.jpg">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Jude</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi blanditiis, hic molestias ut amet illum repellendus voluptas nesciunt vitae eligendi quam ipsum sunt, laudantium obcaecati, assumenda animi rerum fugit dolore.
+                    </p>
+                </div>
+            </article>
+        </div>
+        <div class="swiper-propagation"></div>
+    </section>
+
+
+
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__1">
+                <a href="index.html" class="footer__logo"><h4>EDUCATION</h4></a>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minima cupiditate velit!
+                </p>
+            </div>
+
+            <div class="footer__2">
+                <h4>Permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__3">
+                <h4>Privacy</h4>
+                <ul class="privacy">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and conditions</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+             </ul>
+            </div>
+
+            <div class="footer__4">
+                <h4>Contact Us</h4>
+                <div>
+                    <p>0000011111</p>
+                    <p>abcd@abcd.com</p>
+                </div>
+
+                <ul class="footer__socials">
+                    <li>
+                        <a href="#"><i class="uil uil-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="uil uil-instagram-alt"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="uil uil-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="uil uil-linkedin-alt"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer__copyright">
+            <small>Copyright &copy; First project </small>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            pagination: {
+            el: ".swiper-pagination",
+            clickable: true,  
+            },
+            // when window width is >= 600px
+            breakpoints: {
+                600: {
+                    slidesPerView: 2
+                }
+            }
+        });
+    </script>
+</body>
+</html>
